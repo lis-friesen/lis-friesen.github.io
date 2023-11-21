@@ -10,6 +10,10 @@ h1 {
     font-family:Rock Salt;
 }
 
+h2 {
+    font-family:Rock Salt;
+}
+
 p {
     font-family:Indie Flower;
 }
@@ -50,6 +54,10 @@ section {
     flex-direction:row;
 }
 
+.vert {
+    display:flex;
+    flex-direction:column;
+}
 
 
 
@@ -83,4 +91,14 @@ section {
     background-color:#D1F8DA;
     border-radius:50%;
     display:inline-block;
+}
+
+
+
+#pagetitle {
+    height:150px;
+}
+
+#fluffy {
+    height:700px;
 }
