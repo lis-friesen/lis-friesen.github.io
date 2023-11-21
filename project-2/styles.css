@@ -23,74 +23,48 @@ p {
 
 /***** Layout *****/
 section {
-    /* width:100vw;
-    height:100vh;
-    padding:60px; */
+    padding:35px;
+    justify-content:space-between;
     background-color:#2F2D90;
+    margin:0 auto;
+    /* width:1000px; */
 }
 
-
-
-#first-section {
+nav {
+    display:flex;
+    width:100%;
+    justify-content:space-between;
     background-color:#003063;
-    height:75px;
+    padding:25px;
 }
 
-#second-section {
-    height:525px;
+nav ul {
+    list-style-type:none;
+    display:contents;
 }
 
-#third-section {
-    height:165px;
-}
-
-#fourth-section {
-    height:525px;
-}
 
 
 .flex {
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
 }
 
+/* use this one only when photos won't stack for whatever reason */
 .vert {
     display:flex;
     flex-direction:column;
 }
 
-
-
-.dot {
-    width:50px;
-    Height:50px;
-    background-color:#FFFFFF;
-    border-radius:50%;
-    display:inline-block;
+.horizontal-pic {
+    width:300px;
+    height:225px;
 }
 
-.dot1 {
-    width:50px;
-    Height:50px;
-    background-color:#FFD7F1;
-    border-radius:50%;
-    display:inline-block;
-}
-
-.dot2 {
-    width:50px;
-    Height:50px;
-    background-color:#9BEDFF;
-    border-radius:50%;
-    display:inline-block;
-}
-
-.dot3 {
-    width:50px;
-    Height:50px;
-    background-color:#D1F8DA;
-    border-radius:50%;
-    display:inline-block;
+.vertical-pic {
+    width:375px;
+    height:525px;
 }
 
 
