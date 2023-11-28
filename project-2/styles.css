@@ -24,9 +24,9 @@ p {
 /***** Layout *****/
 section {
     padding:35px;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     background-color:#2F2D90;
-    margin:0 auto;
+    /* margin:0 auto; */
     /* width:1000px; */
 }
 
@@ -48,7 +48,7 @@ nav ul {
 .flex {
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    /* justify-content:space-between; */
 }
 
 /* use this one only when photos won't stack for whatever reason */
