@@ -8,24 +8,36 @@
 
 h1 {
     font-family:Rock Salt;
+    font-size:40px;
+    font-weight:400;
 }
 
 h2 {
     font-family:Rock Salt;
+    font-size:32px;
+    font-weight:400;
 }
 
 p {
     font-family:Indie Flower;
+    font-size:20px;
+    font-weight:400;
 }
 /***** Color *****/
 
 /***** Navigation *****/
 
 /***** Layout *****/
+
+body {
+    margin:0;
+}
+
+
 section {
     justify-content:space-between;
     background-color:#2F2D90;
-    padding:35px;
+    padding:50px;
     /* margin:auto;
     max-width:1440px; */
 }
@@ -35,8 +47,8 @@ nav {
     display:flex;
     justify-content:space-between;
     background-color:#003063;
-    padding:35px;
-    margin:auto;
+    padding:50px;
+    /* margin:auto; */
 }
 
 nav ul {
@@ -45,11 +57,10 @@ nav ul {
 }
 
 
-
 .flex {
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     padding:0 75;
 }
 
@@ -69,12 +80,12 @@ nav ul {
     height:525px;
 }
 
-img {
+/* img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-  }
+  } */
 
 
 
@@ -89,4 +100,5 @@ img {
 
 #homepage-section {
     width:auto;
+    height:100%;
 }
