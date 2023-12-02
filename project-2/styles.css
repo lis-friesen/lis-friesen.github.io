@@ -29,7 +29,15 @@ p {
 
 /***** Layout *****/
 
+html {
+    display: table;
+    margin: auto;
+    background-color:#4C4AAA;
+}
+
 body {
+    display: table-cell;
+    vertical-align: middle;
     margin:0;
 }
 
@@ -37,9 +45,6 @@ body {
 section {
     justify-content:space-between;
     background-color:#2F2D90;
-    padding:50px;
-    /* margin:auto;
-    max-width:1440px; */
 }
 
 
@@ -47,8 +52,7 @@ nav {
     display:flex;
     justify-content:space-between;
     background-color:#003063;
-    padding:50px;
-    /* margin:auto; */
+    padding:30px;
 }
 
 nav ul {
@@ -60,8 +64,6 @@ nav ul {
 .flex {
     display:flex;
     flex-direction:row;
-    /* justify-content:space-between; */
-    padding:0 75;
 }
 
 /* use this one only when photos won't stack for whatever reason */
@@ -80,25 +82,13 @@ nav ul {
     height:525px;
 }
 
-/* img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  } */
-
 
 
 #pagetitle {
     height:150px;
+    width:auto;
 }
 
 #fluffy {
     height:700px;
-}
-
-
-#homepage-section {
-    width:auto;
-    height:100%;
 }
